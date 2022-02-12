@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#counterBox{
+    border: solid;
+    height: 150px;
+    width:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bottomCounter{
+    display: flex;
+    gap: 60px;
+}
+
+.b{
+    background-color: royalblue;
+    color: white;
+}
+#bTwo{
+    background-color: red;
+    color: white;
+}
+
